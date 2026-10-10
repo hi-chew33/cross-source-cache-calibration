@@ -1,0 +1,10 @@
+{
+  "pattern": "random",
+  "repeat": 3,
+  "epoch": 1,
+  "marker_id": "random-run3-epoch1",
+  "seed": 402,
+  "seconds": 1,
+  "size_kb": 1024,
+  "cpu": 2
+}

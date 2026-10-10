@@ -1,0 +1,21 @@
+Quality-controlled ablation result
+
+Rows: 15
+CPU migrations: 0 for all runs
+
+Raw RMSE: 11.950 percentage points
+Same-data affine RMSE: 3.889 percentage points
+Same-data improvement: 67.45%
+
+Leave-one-workload-pattern-out validation:
+Raw RMSE: 11.950 percentage points
+Affine RMSE: 6.502 percentage points
+Cross-validated improvement: 45.59%
+
+Interpretation:
+Affine calibration reduced hardware-versus-Cachegrind RMSE on held-out
+workload patterns in the quality-controlled physical dataset.
+
+Limitation:
+Hardware perf and Cachegrind were paired sequentially rather than measured
+simultaneously within identical execution windows.

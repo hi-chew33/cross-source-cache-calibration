@@ -1,0 +1,36 @@
+Current preliminary evidence
+
+Hardware:
+- Physical Ubuntu system
+- AMD Ryzen 7 7445HS
+- 6 physical cores
+- 12 logical CPUs
+- 16 MiB L3 cache
+- perf hardware counters accessible
+
+Workloads:
+- sequential
+- strided
+- random
+- hash
+- transition
+
+Datasets:
+- seed 11: 15 paired observations
+- seed 17: 15 paired observations
+- total: 30 paired observations
+
+Preliminary validation:
+- Combined leave-one-pattern-out improvement: 47.88%
+- Seed-11 held-out improvement: 70.72%
+- Seed-17 held-out improvement: 66.44%
+
+Interpretation:
+Affine calibration reduced preliminary hardware-versus-Cachegrind
+prediction error on held-out workload patterns and independent seed datasets.
+
+Limitations:
+- Hardware and Cachegrind executions were sequentially paired, not simultaneous.
+- Only one physical CPU has been tested.
+- perf generic cache events and Cachegrind D1 events are related but not identical.
+- Quality filtering and final untouched holdout evaluation remain pending.

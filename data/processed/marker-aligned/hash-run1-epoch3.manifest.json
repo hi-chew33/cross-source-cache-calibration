@@ -1,0 +1,10 @@
+{
+  "pattern": "hash",
+  "repeat": 1,
+  "epoch": 3,
+  "marker_id": "hash-run1-epoch3",
+  "seed": 400,
+  "seconds": 1,
+  "size_kb": 1024,
+  "cpu": 2
+}

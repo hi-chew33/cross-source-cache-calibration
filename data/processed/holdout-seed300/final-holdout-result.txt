@@ -1,0 +1,28 @@
+Final untouched holdout evaluation
+
+Training dataset:
+- Quality-controlled physical dataset
+- 15 paired observations
+- CPU migrations: zero
+
+Holdout dataset:
+- Seeds 300, 301, and 302
+- 15 paired observations
+- Not used during calibration fitting
+
+Calibration:
+hardware_rate = 3.5296 + 12.7294 * simulation_rate
+
+Results:
+Raw holdout RMSE: 12.131 percentage points
+Calibrated holdout RMSE: 4.143 percentage points
+Holdout improvement: 65.84%
+
+Interpretation:
+Affine calibration reduced hardware-versus-Cachegrind prediction error
+on an untouched holdout dataset from previously unseen seeds.
+
+Limitations:
+Hardware and Cachegrind were paired sequentially rather than measured
+simultaneously within identical execution windows. The study currently
+uses one physical CPU and related but non-identical cache metrics.

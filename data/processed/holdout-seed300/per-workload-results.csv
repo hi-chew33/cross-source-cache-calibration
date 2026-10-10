@@ -1,0 +1,6 @@
+pattern,runs,raw_mae,calibrated_mae,improvement_percent
+hash,3,8.1358,5.7922,28.81
+random,3,18.6423,4.6450,75.08
+sequential,3,5.7150,1.1486,79.90
+strided,3,6.6316,0.2009,96.97
+transition,3,15.5902,5.1985,66.66

@@ -1,0 +1,47 @@
+FINAL PRELIMINARY JOURNAL EVIDENCE
+
+Platform:
+AMD Ryzen 7 7445HS
+Ubuntu dual boot
+6 physical cores, 12 logical CPUs
+16 MiB L3 cache
+Linux perf available
+CPU affinity: CPU 2
+Quality-controlled training CPU migrations: zero
+
+Workloads:
+sequential, strided, random, hash, transition
+
+Training:
+15 quality-controlled paired observations
+
+Untouched holdout:
+15 paired observations
+Seeds: 300, 301, 302
+
+Overall holdout:
+Raw RMSE: 12.131 percentage points
+Calibrated RMSE: 4.143 percentage points
+Improvement: 65.84%
+
+Per-workload holdout improvement:
+hash: 28.81%
+random: 75.08%
+sequential: 79.90%
+strided: 96.97%
+transition: 66.66%
+
+Exploratory bootstrap over five workload groups:
+Mean improvement: 68.75%
+95% interval: 50.04% to 83.13%
+Minimum workload improvement: 28.81%
+
+Interpretation:
+Affine calibration reduced hardware-versus-Cachegrind error for every
+evaluated workload class on an untouched seed holdout.
+
+Limitations:
+The study uses one physical CPU. Hardware perf and Cachegrind were paired
+sequentially rather than measured simultaneously. Generic perf cache events
+and Cachegrind D1 events are related but not identical. The bootstrap interval
+is exploratory because it resamples only five workload groups.

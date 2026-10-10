@@ -1,0 +1,11 @@
+Project source: <project-root>
+Collection date: Sat Oct 10 03:47:13 PM IST 2026
+
+Important study settings:
+CPU affinity: CPU 2
+Workload patterns: sequential, strided, random, hash, transition
+Pairing: configuration-matched, interval-indexed replay
+Quality rule: zero CPU migrations for quality-filtered training observations
+Holdout design: repeats 1 and 2 for training; repeat 3 for holdout
+
+Raw perf.data and raw Cachegrind output files were intentionally excluded.

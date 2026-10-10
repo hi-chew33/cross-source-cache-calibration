@@ -1,0 +1,10 @@
+{
+  "pattern": "transition",
+  "repeat": 1,
+  "epoch": 4,
+  "marker_id": "transition-run1-epoch4",
+  "seed": 400,
+  "seconds": 1,
+  "size_kb": 1024,
+  "cpu": 2
+}

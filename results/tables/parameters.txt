@@ -1,0 +1,11 @@
+all_rows=75
+training_rows=50
+holdout_rows=25
+quality_training_rows=50
+quality_note=zero_migration_training_rows_used
+ordinary_intercept=-1.850579897543524
+ordinary_slope=34.67619026798738
+theil_sen_intercept=-7.088849968016252
+theil_sen_slope=51.784780434766795
+holdout_definition=repeat_3_only
+holdout_not_used_for_fitting=true

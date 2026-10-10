@@ -1,0 +1,30 @@
+=== COLLECTION DATE ===
+Sat Oct 10 03:47:13 PM IST 2026
+
+=== USER (REDACTED) ===
+<redacted>
+
+=== KERNEL ===
+Linux <host> 7.0.0-34-generic #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+=== CPU SUMMARY ===
+Model name:                              AMD Ryzen 7 7445HS w/ Radeon 740M Graphics
+L3 cache:                                16 MiB (1 instance)
+
+=== PERF VERSION ===
+perf version 7.0.14
+
+=== VALGRIND VERSION ===
+valgrind-3.22.0
+
+=== PYTHON VERSION ===
+Python 3.12.3
+
+=== PYTHON PACKAGES ===
+numpy 1.26.4
+pandas 2.1.4
+scipy 1.11.4
+matplotlib 3.6.3
+
+=== PERF EVENT PARANOID ===
+4

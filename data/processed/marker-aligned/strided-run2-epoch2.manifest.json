@@ -1,0 +1,10 @@
+{
+  "pattern": "strided",
+  "repeat": 2,
+  "epoch": 2,
+  "marker_id": "strided-run2-epoch2",
+  "seed": 401,
+  "seconds": 1,
+  "size_kb": 1024,
+  "cpu": 2
+}

@@ -1,0 +1,9 @@
+training_rows=15
+holdout_rows=15
+training_cpu_quality=zero_migrations
+ordinary_affine_intercept=3.5296233886952786
+ordinary_affine_slope=12.729363232990703
+robust_affine_intercept=0.7740078017189713
+robust_affine_slope=19.131308274554964
+Note: holdout data was not used for fitting.
+Note: hardware and Cachegrind were paired sequentially.

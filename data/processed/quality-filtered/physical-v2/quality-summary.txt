@@ -1,0 +1,6 @@
+dataset=quality-controlled-physical-v2
+cpu=2
+total_runs=15
+cpu_migration_zero_runs=15
+context_switch_range=271-458
+status=qualified_for_cpu_affinity

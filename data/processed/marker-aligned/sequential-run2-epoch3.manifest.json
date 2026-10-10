@@ -1,0 +1,10 @@
+{
+  "pattern": "sequential",
+  "repeat": 2,
+  "epoch": 3,
+  "marker_id": "sequential-run2-epoch3",
+  "seed": 401,
+  "seconds": 1,
+  "size_kb": 1024,
+  "cpu": 2
+}

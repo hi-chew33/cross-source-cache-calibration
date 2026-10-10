@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or experimental dataset, please cite it as below."
+title: "Cross-Source Calibration of Hardware Cache Measurements and Software Cache Simulation"
+authors:
+  - name: "hi-chew33"
+repository-code: "https://github.com/hi-chew33/cross-source-cache-calibration"
+abstract: "Replication package and experimental dataset for cross-source calibration between physical hardware cache performance counters (Linux perf) and software cache simulation (Valgrind Cachegrind)."
+keywords:
+  - "cache simulation"
+  - "hardware counters"
+  - "perf stat"
+  - "cachegrind"
+  - "calibration"
+license: MIT
+date-released: 2026-10-10
